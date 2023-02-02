@@ -1,7 +1,6 @@
 package DSA;
 
 public interface Collectioon<E> {
-
             int size();
     boolean isEmpty();
             boolean contains(Object obj);
