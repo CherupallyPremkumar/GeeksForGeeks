@@ -9,6 +9,7 @@ import java.util.NoSuchElementException;
 public class LinkedListImp<E> {
     LinkNode head;
 
+
     private static class LinkNode<E> {
         E value;
         LinkNode<E> next;
