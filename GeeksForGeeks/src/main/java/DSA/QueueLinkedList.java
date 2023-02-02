@@ -2,8 +2,6 @@ package DSA;
 
 import java.util.*;
 
-
-
 public class QueueLinkedList<E> implements Lists<E> ,Dequeuees<E> {
 
     private Node<E> front, rear;
@@ -113,6 +111,7 @@ public class QueueLinkedList<E> implements Lists<E> ,Dequeuees<E> {
     @Override
     public boolean add(Object ob) {
        final Node<E> node = new Node(ob);
+        System.out.println();
         if (front == null) {
             head = node;
             front = node;
@@ -196,6 +195,7 @@ public class QueueLinkedList<E> implements Lists<E> ,Dequeuees<E> {
 
 class USe {
     public static void main(String[] args) {
+
 
         QueueLinkedList queueLinkedList = new QueueLinkedList(5);
 

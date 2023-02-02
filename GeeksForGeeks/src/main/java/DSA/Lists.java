@@ -7,6 +7,9 @@ public interface Lists<E> extends Collectioon<E> {
            E remove(int index);
    int indexOf(Object obj);
            int lastIndexOf(Object obj);
+
+
+
    // listIterator
      //       listIterator
     Lists<E> subList(int fromIndex,int toIndex);

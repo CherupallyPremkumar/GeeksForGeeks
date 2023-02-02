@@ -5,6 +5,7 @@ import java.util.NoSuchElementException;
 
 
 class Queues<E> implements Dequeuees<E> {
+
     private int front, rear;
     private int size;
    private Object[] arr;

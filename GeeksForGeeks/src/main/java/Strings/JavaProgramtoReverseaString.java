@@ -42,6 +42,7 @@ public static String reverseaStringusingStringBuilder(String str)
             list.add(str.charAt(i));
         }
         Collections.reverse(list);
+        System.out.println();
         for(char c: list)
         {
             str1+=c;
